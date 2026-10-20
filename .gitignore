@@ -1,0 +1,30 @@
+## Build outputs & temporary files
+[Bb]in/
+[Oo]bj/
+dist/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## WebView2 Runtime Data & Cache
+*.WebView2/
+EBWebView/
+
+## IDE & Editor configs
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+## Keep reference libraries in libs/
+!libs/*.dll

@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>NestG launcher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <ApplicationConfigurationInitialize>false</ApplicationConfigurationInitialize>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NestG.SteamDpi.Helper.exe" />
+    <None Remove="NestG.SteamDpi.Helper.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.0.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.1.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.2.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.3.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.4.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.5.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.6.json" />
+    <None Remove="NestG.RuntimeBundles.bettersteamtools-cloud.json" />
+    <None Remove="NestG.RuntimeBundles.opensteamtool-cloud.json" />
+    <None Remove="NestG.SteamConnection.Icons.arrow-clockwise.svg" />
+    <None Remove="NestG.SteamConnection.Icons.box-arrow-up-right.svg" />
+    <None Remove="NestG.SteamConnection.Icons.check-lg.svg" />
+    <None Remove="NestG.SteamConnection.Icons.chevron-down.svg" />
+    <None Remove="NestG.SteamConnection.Icons.dash-lg.svg" />
+    <None Remove="NestG.SteamConnection.Icons.exclamation-lg.svg" />
+    <None Remove="NestG.SteamConnection.Icons.steam.svg" />
+    <None Remove="NestG.SteamConnection.Icons.x-lg.svg" />
+    <None Remove="NestG.SupportContact.Icons.copy.svg" />
+    <None Remove="NestG.SupportContact.Icons.headset.svg" />
+    <None Remove="NestG.SupportContact.Icons.telephone.svg" />
+    <None Remove="app_desktop.Services.SteamExclusions.DefenderCommon.ps1" />
+    <None Remove="app_desktop.Services.SteamExclusions.DefenderApply.ps1" />
+    <None Remove="app_desktop.Services.SteamExclusions.DefenderOwnership.ps1" />
+    <None Remove="app_desktop.Services.SteamExclusions.DefenderManagedApply.ps1" />
+    <EmbeddedResource Include="NestG.SteamDpi.Helper.exe" LogicalName="NestG.SteamDpi.Helper.exe" />
+    <EmbeddedResource Include="NestG.SteamDpi.Helper.json" LogicalName="NestG.SteamDpi.Helper.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.0.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.0.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.1.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.1.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.2.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.2.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.3.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.3.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.4.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.4.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.5.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.5.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.6.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud-1.0.6.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.bettersteamtools-cloud.json" LogicalName="NestG.RuntimeBundles.bettersteamtools-cloud.json" />
+    <EmbeddedResource Include="NestG.RuntimeBundles.opensteamtool-cloud.json" LogicalName="NestG.RuntimeBundles.opensteamtool-cloud.json" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.arrow-clockwise.svg" LogicalName="NestG.SteamConnection.Icons.arrow-clockwise.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.box-arrow-up-right.svg" LogicalName="NestG.SteamConnection.Icons.box-arrow-up-right.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.check-lg.svg" LogicalName="NestG.SteamConnection.Icons.check-lg.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.chevron-down.svg" LogicalName="NestG.SteamConnection.Icons.chevron-down.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.dash-lg.svg" LogicalName="NestG.SteamConnection.Icons.dash-lg.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.exclamation-lg.svg" LogicalName="NestG.SteamConnection.Icons.exclamation-lg.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.steam.svg" LogicalName="NestG.SteamConnection.Icons.steam.svg" />
+    <EmbeddedResource Include="NestG.SteamConnection.Icons.x-lg.svg" LogicalName="NestG.SteamConnection.Icons.x-lg.svg">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NestG.SupportContact.Icons.copy.svg" LogicalName="NestG.SupportContact.Icons.copy.svg" />
+    <EmbeddedResource Include="NestG.SupportContact.Icons.headset.svg" LogicalName="NestG.SupportContact.Icons.headset.svg" />
+    <EmbeddedResource Include="NestG.SupportContact.Icons.telephone.svg" LogicalName="NestG.SupportContact.Icons.telephone.svg" />
+    <EmbeddedResource Include="app_desktop.Services.SteamExclusions.DefenderCommon.ps1" LogicalName="app_desktop.Services.SteamExclusions.DefenderCommon.ps1" />
+    <EmbeddedResource Include="app_desktop.Services.SteamExclusions.DefenderApply.ps1" LogicalName="app_desktop.Services.SteamExclusions.DefenderApply.ps1" />
+    <EmbeddedResource Include="app_desktop.Services.SteamExclusions.DefenderOwnership.ps1" LogicalName="app_desktop.Services.SteamExclusions.DefenderOwnership.ps1" />
+    <EmbeddedResource Include="app_desktop.Services.SteamExclusions.DefenderManagedApply.ps1" LogicalName="app_desktop.Services.SteamExclusions.DefenderManagedApply.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3405.78" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.0" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
+    <PackageReference Include="Tomlyn" Version="0.19.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.enc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

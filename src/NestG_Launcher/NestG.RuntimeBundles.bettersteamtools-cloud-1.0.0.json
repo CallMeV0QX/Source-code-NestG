@@ -1,0 +1,79 @@
+{
+    "bundleId":  "bettersteamtools-cloud",
+    "version":  "1.0.0",
+    "enabled":  true,
+    "channel":  "stable",
+    "runtimeMode":  "BetterSteamToolsCloudRedirect",
+    "architecture":  "x64",
+    "minimumDesktopVersion":  "2.2.34",
+    "openSteamToolCommit":  "4747385bdc7c92fb422e63419a5093566b3bf626",
+    "cloudRedirectVersion":  "2.6.5",
+    "files":  [
+                  {
+                      "relativePath":  "OpenSteamTool.dll",
+                      "installPath":  "OpenSteamTool.dll",
+                      "size":  1625600,
+                      "sha256":  "A22D1EB93511A59A36FFB2416CCA04D63D5374EAB927DAA32F02C383BD4931A5"
+                  },
+                  {
+                      "relativePath":  "dwmapi.dll",
+                      "installPath":  "dwmapi.dll",
+                      "size":  108032,
+                      "sha256":  "5FEB61A4D33E4B0E8D358AC563674F5BB7FAF6F651C8F0EE79C8439E3EEF64BB"
+                  },
+                  {
+                      "relativePath":  "xinput1_4.dll",
+                      "installPath":  "xinput1_4.dll",
+                      "size":  121344,
+                      "sha256":  "E90261CE15F38249FA00C1DAD63EB1AF1B6AAD0252B3DEA3B31F6BDA78F9C7D1"
+                  },
+                  {
+                      "relativePath":  "cloud_redirect.dll",
+                      "installPath":  "cloud_redirect.dll",
+                      "size":  1726976,
+                      "sha256":  "6747693E8CF3386ADE87BD3FD73EF310DFB975E2AB3EB055EC0A0129851CB721"
+                  },
+                  {
+                      "relativePath":  "opensteamtool/ipc/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+                      "installPath":  "opensteamtool/ipc/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+                      "size":  934,
+                      "sha256":  "3C70E82A60B1BE7660C20FDC1541B61CC91A6B535D8F072EBF0A64DC510E55BA"
+                  },
+                  {
+                      "relativePath":  "opensteamtool/pattern/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+                      "installPath":  "opensteamtool/pattern/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+                      "size":  3000,
+                      "sha256":  "ADEADDF04FA2F2F0226AA8AF1B3BE4AB29F71500CE9409EA548F44289D99CC30"
+                  },
+                  {
+                      "relativePath":  "opensteamtool/pattern/steamui/55a42fc091aee1aa68e6901f3647d732c30f1ad7aeb037ec7b0c425e8029defd.toml",
+                      "installPath":  "opensteamtool/pattern/steamui/55a42fc091aee1aa68e6901f3647d732c30f1ad7aeb037ec7b0c425e8029defd.toml",
+                      "size":  1307,
+                      "sha256":  "FAAC5597EC72227A0C1A9652D9816041FDC477B20C82B7E8F67DE2548996400C"
+                  },
+                  {
+                      "relativePath":  "THIRD_PARTY_NOTICES.md",
+                      "installPath":  "cloud_redirect/THIRD_PARTY_NOTICES.md",
+                      "size":  630,
+                      "sha256":  "8055087CDE80BB312190D27465402BDD44E25F21BAA36948C1444140ED7A2377"
+                  },
+                  {
+                      "relativePath":  "licenses/OpenSteamTool-LICENSE.txt",
+                      "installPath":  "cloud_redirect/licenses/OpenSteamTool-LICENSE.txt",
+                      "size":  35826,
+                      "sha256":  "6E576912875427B7C73F098A6E63C22BAAD552D92ED3866FE4A36BF05FFE0BBB"
+                  },
+                  {
+                      "relativePath":  "licenses/CloudRedirect-LICENSE.txt",
+                      "installPath":  "cloud_redirect/licenses/CloudRedirect-LICENSE.txt",
+                      "size":  1070,
+                      "sha256":  "E5D6554459E7F15943217B05AA33C2FDDD6C8F9BBD1704D772B29963A1DDC951"
+                  },
+                  {
+                      "relativePath":  "sources/BetterSteamTools-NestG-source.zip",
+                      "installPath":  "cloud_redirect/sources/BetterSteamTools-NestG-source.zip",
+                      "size":  11364346,
+                      "sha256":  "3D735D3B60D56E78B555442785DEF60CD829847E0A08B8FE56787BAB7670A4F7"
+                  }
+              ]
+}

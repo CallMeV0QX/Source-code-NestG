@@ -1,0 +1,73 @@
+{
+  "bundleId": "opensteamtool-cloud",
+  "version": "1.0.0",
+  "enabled": true,
+  "channel": "stable",
+  "runtimeMode": "OpenSteamToolCloudRedirect",
+  "architecture": "x64",
+  "minimumDesktopVersion": "2.2.34",
+  "openSteamToolCommit": "2a08b0bfdc96c9e3f75df20f3f37bc8d8c09ee3a",
+  "cloudRedirectVersion": "2.6.5",
+  "files": [
+    {
+      "relativePath": "OpenSteamTool.dll",
+      "installPath": "OpenSteamTool.dll",
+      "size": 1523712,
+      "sha256": "7661A0C0B4901A32D8BB82353F2CADBA5DA41DF4A810DF44DE28F7AE40A4D858"
+    },
+    {
+      "relativePath": "dwmapi.dll",
+      "installPath": "dwmapi.dll",
+      "size": 109568,
+      "sha256": "4B881D9ECFCAB18442CCC3D5B5AABD4A3669B1A65891846308F3FA4BE17C3194"
+    },
+    {
+      "relativePath": "xinput1_4.dll",
+      "installPath": "xinput1_4.dll",
+      "size": 122880,
+      "sha256": "F510BE763CE136698AC12B8072D6E97547E83CDF23272833C36678AC06AFD619"
+    },
+    {
+      "relativePath": "cloud_redirect.dll",
+      "installPath": "cloud_redirect.dll",
+      "size": 1726976,
+      "sha256": "6747693E8CF3386ADE87BD3FD73EF310DFB975E2AB3EB055EC0A0129851CB721"
+    },
+    {
+      "relativePath": "opensteamtool/ipc/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+      "installPath": "opensteamtool/ipc/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+      "size": 934,
+      "sha256": "3C70E82A60B1BE7660C20FDC1541B61CC91A6B535D8F072EBF0A64DC510E55BA"
+    },
+    {
+      "relativePath": "opensteamtool/pattern/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+      "installPath": "opensteamtool/pattern/steamclient/52ff7a513f8d5913a185ac8820eadb17d6e8e4144cd8fff36cc5bae6fa9d3fee.toml",
+      "size": 3000,
+      "sha256": "ADEADDF04FA2F2F0226AA8AF1B3BE4AB29F71500CE9409EA548F44289D99CC30"
+    },
+    {
+      "relativePath": "opensteamtool/pattern/steamui/55a42fc091aee1aa68e6901f3647d732c30f1ad7aeb037ec7b0c425e8029defd.toml",
+      "installPath": "opensteamtool/pattern/steamui/55a42fc091aee1aa68e6901f3647d732c30f1ad7aeb037ec7b0c425e8029defd.toml",
+      "size": 1307,
+      "sha256": "FAAC5597EC72227A0C1A9652D9816041FDC477B20C82B7E8F67DE2548996400C"
+    },
+    {
+      "relativePath": "THIRD_PARTY_NOTICES.md",
+      "installPath": "cloud_redirect/THIRD_PARTY_NOTICES.md",
+      "size": 613,
+      "sha256": "B6E11356056971DA07B34568743457D1AA991B07B55956FD817E205489F30DAD"
+    },
+    {
+      "relativePath": "licenses/OpenSteamTool-LICENSE.txt",
+      "installPath": "cloud_redirect/licenses/OpenSteamTool-LICENSE.txt",
+      "size": 35826,
+      "sha256": "6E576912875427B7C73F098A6E63C22BAAD552D92ED3866FE4A36BF05FFE0BBB"
+    },
+    {
+      "relativePath": "licenses/CloudRedirect-LICENSE.txt",
+      "installPath": "cloud_redirect/licenses/CloudRedirect-LICENSE.txt",
+      "size": 1070,
+      "sha256": "E5D6554459E7F15943217B05AA33C2FDDD6C8F9BBD1704D772B29963A1DDC951"
+    }
+  ]
+}
